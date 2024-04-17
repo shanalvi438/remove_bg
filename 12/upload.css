@@ -1,0 +1,105 @@
+body{
+  background-color: #101112;
+  color: #E7E7E7;
+}
+.upload{
+  max-width: 750px;
+  margin: 40px auto 0px;
+}
+.upload h1{
+  font-weight: bold;
+  color: #E7E7E7;
+  text-align: center; 
+  font-size: 45px;
+  font-family: var(--heading-font);
+  font-style: normal;
+}
+@media screen and (max-width: 601px) {
+  .upload h1{
+    font-size: 25px;
+  }
+}
+input[type="file"]{
+  display: none;
+}
+
+label{
+  cursor:pointer;
+  margin-top: 25px;
+}
+
+#imageName{
+  color:green;
+}
+.box{
+  padding-top: 50px;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+.image_upload{
+  border: 1px solid;
+  width: 50%;
+  margin: auto;
+  height: 465x;
+  border-style: dashed;
+  border-radius: 12px;
+  background-color: #191A1B;
+}
+
+button:hover{
+  background: linear-gradient(115deg, #A90FCD,  #FF4040);
+  color: #B5B5B5;
+}
+.btn span{
+  font-weight: bold;
+  color: #B5B5B5; 
+}
+.SupportedFormats{
+  width: 50%;
+  margin: auto;
+  display: flex;
+}
+.SupportedFormats__Format{
+  border: 1px solid;
+  margin: 5px;
+}
+.half_box{
+  margin-top: 45px;
+  border: solid;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  border-top: none;
+  background-color: #253646;
+  height: 166px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+.half_box img{
+  margin-top: 25px;
+  width: 34px;
+  height: 29px;
+}
+.SampleSection img{
+  margin-top: 45px;
+  padding: 5px;
+  border-radius: 12px;
+}
+.image_viewer img{
+  width: 300px;
+}
+.products{
+  width: 50%;
+  margin: auto;
+  font-weight: bold;
+}
+.products h1{
+  padding-top: 35px;
+  margin-top: 75px;
+  margin-bottom: 45px;
+}
+.cards{
+  background: linear-gradient(160deg, #36031c, #000000, #000000);
+  padding-bottom: 100px;
+}
